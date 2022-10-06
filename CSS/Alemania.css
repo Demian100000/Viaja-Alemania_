@@ -1,0 +1,856 @@
+:root{
+    --Principal:rgb(183, 196, 207);
+    --P2:rgb(238, 227, 203);
+    --p3:rgb(215, 192, 174);
+    --p4:rgb(150, 126, 118);
+}
+html{
+   box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: white;
+}
+header{
+    max-width: 125rem;
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-bottom: 1rem;
+
+    
+}
+@media (max-width: 414px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+    
+nav a{
+    text-decoration: none;
+    text-align: justify; 
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding: .5rem;
+}
+
+nav :hover{
+    display: block;
+    text-align: center;
+    background-color: var(--Principal);
+    filter: blur(white);
+    color: var(--p4);
+}
+
+.Alemania{
+    position: relative;
+    height: 900px;
+    width: 1705px;
+    padding: 0px, 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(/Alemania/Ale.img/Alemania.jpg);
+    background-size: cover;
+    margin: auto;
+    border-radius: 30px;
+    
+}
+
+@media (max-width: 414px) {
+    .Alemania{
+        height: 30px;
+    width: 200px;
+    padding-top: 8rem;
+    padding-bottom: 50;
+        
+        
+    }
+
+}
+.Alemania_2{
+    color: white;
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 100px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .Alemania_2{
+        height: 300px;
+    width: 500px;
+        
+        
+    }
+
+}
+
+.Informacion{
+    width: 1705px;
+    height:  600px;
+    margin: auto;
+    color: black;
+
+
+}
+@media (max-width: 414px) {
+    .Informacion{
+        height: 600px;
+        width: 414px;
+        padding-top: 7rem;
+        margin: auto;
+        margin-bottom: 0%;
+        
+    }
+
+}
+.Titulo2{
+    margin-top: 30px;
+    height: 70px;
+    width: 1705;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 414px) {
+    .Titulo2{
+        padding-top: 3rem;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;  
+        padding-bottom: 1rem;
+        
+    }
+
+}
+
+
+.Titulo2 h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+.Cajas{
+    position: absolute;
+    height: 500px;
+    width: 1705px;
+    float: left;
+    display: flex;
+    
+    
+
+}
+
+@media (max-width: 414px) {
+    .Cajas{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 414px;
+        
+        
+        
+    }
+
+}
+
+.Caja1{
+    height: 400px;
+    width: 900px;
+    background-color: rgb(215, 192, 174);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 180px;
+    margin-top: 50px;
+    font-size: 150%;
+    font-family: 'Tenor Sans', sans-serif;
+    border-radius: 30px;
+    
+    
+
+}
+
+@media (max-width: 414px) {
+    .Caja1{
+        display: flex;
+        flex-direction: column;
+        height: 414px;
+        width: 300px;
+        margin-top: 1rem;
+        align-items: center;
+        padding-top: 1rem;
+        
+        
+    }
+
+}
+.Caja1 p{
+    padding: 30px;
+    
+}
+.Caja2{
+    height: 400px;
+    width: 500px;
+    background-color: pink;
+    margin-top: 50px;
+    background-image: url(/Alemania/Ale.img/Alemania2.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 30px;
+    
+}
+
+@media (max-width: 414px) {
+    .Caja2{
+        height:0px;
+        width:0px;
+        
+        
+    }
+
+}
+
+
+.Olvido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+
+}
+
+@media (max-width: 414px) {
+    .Olvido{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+   
+        
+        
+    }
+
+}
+
+
+.MainC{
+    height: 800px;
+    width: 1705px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+@media (max-width: 414px) {
+    .MainC{
+    width: 414px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 18rem;
+    margin-top: 4rem;
+    margin-bottom: 28rem;
+    
+    
+        
+        
+    }
+
+}
+
+.vuelos{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(238, 227, 203);
+    border-radius: 30px;
+    
+}
+
+@media (max-width: 414px) {
+    .vuelos{
+    width: 300px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    
+        
+        
+    }
+
+}
+
+
+
+.vuelos h2{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(/Alemania/Ale.img/Vuelos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+
+}
+
+@media (max-width: 414px) {
+    .vuelos h2{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    text-align: center;
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+        
+    }
+
+}
+.vuelos div{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(150, 126, 118);
+    color: black;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius:30px;
+}
+
+@media (max-width: 414px) {
+    .vuelos div{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    
+        
+    }
+
+}
+@media (max-width: 414px) {
+    .vuelos p{
+    width: 200px;
+    height: 200px;
+    display: flex;
+        
+    }
+
+}
+.hotel{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(238, 227, 203);
+    border-radius: 30px;
+    
+    
+
+}
+@media (max-width: 414px) {
+    .hotel{
+    width: 300px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 3rem;
+    
+        
+        
+    }
+
+}
+.hotel h2{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(/Alemania/Ale.img/Hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+
+@media (max-width: 414px) {
+    .hotel h2{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    text-align: center;
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+        
+    }
+
+}
+.hotel div{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(150, 126, 118);
+    color: black;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius:30px;
+}
+
+@media (max-width: 414px) {
+    .hotel div{
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+    
+        
+    }
+
+}
+@media (max-width: 414px) {
+    .hotel p{
+    width: 200px;
+    height: 200px;
+    display: flex;
+        
+    }
+
+}
+
+.transp{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(238, 227, 203);
+    border-radius: 30px;
+}
+@media (max-width: 414px) {
+    .transp{
+    width: 300px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    
+        
+        
+    }
+
+}
+.transp h2{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(/Alemania/Ale.img/Transporte.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+
+
+}
+@media (max-width: 414px) {
+    .transp h2{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    text-align: center;
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+        
+    }
+
+}
+.transp div{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(150, 126, 118);
+    color: black;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius:30px;
+}
+
+@media (max-width: 414px) {
+    .transp div{
+    width: 200px;
+    height: 200px;
+    
+        
+    }
+
+}
+@media (max-width: 414px) {
+    .transp p{
+    width: 200px;
+    height: 200px;
+    display: flex;
+        
+    }
+
+}
+.boton{
+    width: 50px;
+    height: 60px;
+    background-color: aqua;
+    color: black;
+}
+.boton p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    width: border-box;
+    height: 300px;
+    background: linear-gradient(45grad,rgb(238, 227, 203),rgb(215, 192, 174), rgb(150, 126, 118));
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+.foterC{
+    height: 500px;
+    width: border-box;
+    background-color: #183153;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+
+    
+}
+
+@media (max-width: 414px) {
+    .foterC {
+    width: 414px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+        
+    }
+
+}
+
+.Legal{
+    height: 420px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.Legal h2{
+    text-align: center;
+    margin-left: 0%;
+    margin-bottom: 30px;
+    display: flex;
+}
+.Legal a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+.escuela{
+    height: 60px;
+    width: 60px;
+    background-image: url(/Alemania/Ale.img/Estudia.png);
+    background-size: 60px, 60px;
+    background-repeat: no-repeat;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.Redes{
+    height: 420px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+.Redes h2{
+    text-align: right;
+    margin-bottom: 30px;
+    display: flex;
+    
+
+}
+.Redes a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: initial;
+    padding: 40px;
+}
+.Redesimg{
+    height: 40px;
+    width: 40px;
+    background-image: url(/Alemania/Ale.img/Redes.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    justify-content: right;
+    margin-right: 40px;
+
+}
+
+.boxig{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.boxig a{
+    text-decoration: none;
+    font-family: 'Tenor Sans', sans-serif;
+    color: white;
+}
+
+.Ig{
+    height: 40px;
+    width: 40px;
+    background-image: url(/Alemania/Ale.img/Insta.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.boxtw{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxtw a{
+    text-decoration: none;
+    font-family: 'Tenor Sans', sans-serif;
+    color: white;
+}
+.Tw{
+    height: 40px;
+    width: 40px;
+    background-image: url(/Alemania/Ale.img/Twitter.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.boxfb{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxfb a{
+    text-decoration: none;
+    font-family: 'Tenor Sans', sans-serif;
+    color: white;
+}
+.Fb{
+    height: 40px;
+    width: 40px;
+    background-image: url(/Alemania/Ale.img/Facebook.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.Mas{
+    height: 420px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: white;
+}
+
+.Mas h2{
+    text-align: right;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+.Embajada{
+    height: 40px;
+    width: 40px;
+    background-image: url(/Alemania/Ale.img/Embajada.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    justify-content: right;
+    margin-right: 40px;
+
+}
+.Embajada P{
+    margin: auto;
+}
+.MapaIM{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+
+
+.Dparr{
+    width: 100%;
+    height: 20px;
+    color: white;
+    background-color: black;
+    font-size: small;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 0%;
+    text-align: center;
+
+}
+
+@media (max-width: 414px) {
+    .Dparr {
+    width: 414PX;
+    height: 20px;
+    
+    
+        
+    }
+
+}
+footer a:hover{
+    color: yellow;
+}
+
+.Mas a:hover{ 
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+    border-radius: 3rem;
+    
+    padding: auto;
+
+}
+
